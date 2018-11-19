@@ -1,0 +1,13 @@
+    <div class="bottom bottom-desk">
+      <p><i class="far fa-question-circle fa-3x"></i><br/>
+        <strong><span class="question">Top 5 frequently <br/>asked questions</span></strong><br/> <br/> Need to know when you're getting your medical ID card or how to change your coverage if you have a life event (e.g., marriage, birth or adoption)? Find answers to those questions and more
+        here.
+        <br/><br/><a class="faq" href="#">View FAQ <i class="fas fa-plus-circle "></i></a></p>
+      <p><i class="fas fa-copy fa-3x"></i><br/><strong><span class="question">Medical plan <br/>details</span></strong><br/> <br/> Check out your plan services and coverage.<br/><br/><span class="faq"><a href="#">Apple Part-Time PPO <i class="fas fa-chevron-circle-down"></i></a></span><br/>
+        <a href="#">HMSA PPO (Hawaii) <i class="fas fa-chevron-circle-down"></i></a>
+      </p>
+      <p><i class="far fa-comment-dots fa-3x"></i><br/><strong><span class="question">Virtual benefits <br/>counselor</strong><br/> <br/> Answer a few questions and learn about your halth plan. The virtual benefits counselor gices you personalized, confidential details. <br/><br/>
+        <span class="faq"><a href="#">Ask your counselor <i class="fas fa-angle-right"></i></a></span>
+      </p>
+
+    </div>

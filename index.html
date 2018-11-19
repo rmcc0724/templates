@@ -1,25 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title></title>
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1" <title>
+  </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.5/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
-<header>
-</header>
 <body>
-<div class="container">
-    Hello World!
-</div>
-<footer>
-</footer>
+  <div id="top-items">
+    <p><i class="fab fa-apple fa-x3"></i>HRWeb</p>
+    <div class="searchForm example">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <div class="dropdownItems">
+      <div class="dropdown">
+        <button class="dropbtn">HR HelpLine<i class="arrow down"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#hrhelpline">1800-HR</a>
+        </div>
+      </div>
+      <div class="dropdown earth">
+        <button class="dropbtn"><i class="fas fa-globe-americas"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+        </div>
+      </div><div class="dropdown">
+        <button class="dropbtn eng">English</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#hrhelpline">English</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Corporate<i class="arrow down"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#hrhelpline">Corporate</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div class="nav-links">
+      <h3>Open Enrollment</h3>
+      <nav>
+        <ul>
+          <li><a href="#">Full-time employees</a></li>
+          <li><a href="#">Part-time employees</a></li>
+          <li><a href="#">Interns</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="change">
+      <h1 class="text-center">Your chance for change.</h1>
+      <h4 class="text-center">2019 Open Enrollment: October 22-November 9</h4>
+    </div>
+  </header>
+  <div class="container">
+    <div class="chance">
+      <p>Open Enrollment is your once-a-year chance to review your coverage and choose your benefits. We know you're busy-so we're making it easy. Follow these three steps to select the plans that will meet your and your family's needs for the coming year.</p>
+      <!----Here I used the bootstrap accordion function -->
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default panel_1">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="nums num1">1 </span><span>Choose your medical, dental and vision.</span><i class="fas fa-angle-down"></i></a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">Medical, dental, and vision info here.</div>
+          </div>
+        </div>
+        <div class="panel panel-default panel_2">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><span class="nums num2">2 </span><span>Choose your life and accidental insurance.</span><i class="fas fa-angle-down"></i></a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">Life and accidental insurance info here.</div>
+          </div>
+        </div>
+        <div class="panel panel-default panel_3">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><span class="nums num3">3 </span><span>Update your beneficiaries and emergency contact.</span><i class="fas fa-angle-down"></i></a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">Beneficiaries and emergency contact info here.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="changing">
+      <h3>What's changing for 2019.</h3>
+      <p><strong>Prior Authorization</strong><br/> If you have UnitedHealthcare, you may be required to get prior authorization for complex health services like surgery and clinical trials. For questions, call UnitedHealthcare at 1-866-348-1286.</p>
 
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.5/umd/popper.min.js"></script>
+      <p><strong>Life and Accident Insurance Programs</strong><br/> Premiums are increasing for life and AD&D insurance for you and your spouse or domestic partner. Take time to evaluate how much coverage is right for you. It may be that Apple already provides
+        all the coverage you need. 2019 premiums are available in the benefits Enrollment Tool.</p>
+
+      <p><strong>Medical Insurance Programs</strong><br/> Medical premiums are increasing for most plans due to the rising costs of treatment and advanced technologies. For all plans, the increase is no more than 6$ per paycheck. 2019 premiums are available
+        in the benefits Enrollment Tool.
+      </p>
+    </div>
+    <div class="bottom">
+      
+      <div class="faq">
+        <p><i class="far fa-question-circle fa-3x"></i></p>
+        <p class=bottom-title><strong>Top 5 frequently<br />asked questions</strong></p>
+          <p class=bottom-text>Need to know when you're getting your medical ID card or how to change your coverage if you have a life event (e.g., marriage, birth or adoption)? Find answers to those questions and more here.</p>
+         <p class=bottom-link><a href="#">View FAQ <i class="fas fa-plus-circle "></i></a>
+        </p>
+      </div>
+      <div class="faq">
+        <p><i class="fas fa-copy fa-3x"></i></p>
+        <p class=bottom-title><strong>Medical plan <br/>details</strong></p>
+        <p class=bottom-text>Check out your plan services and coverage.<br/>
+        <p class=bottom-link><a href="#">Apple Part-Time PPO <i class="fas fa-chevron-circle-down"></i></a></p>
+        <p><a href="#">HMSA PPO (Hawaii) <i class="fas fa-chevron-circle-down"></i></a>
+        </p>
+      </div>
+
+      <div class="faq">
+        <p><i class="far fa-comment-dots fa-3x"></i></p>
+        <p class=bottom-title> <strong>Virtual benefits<br/>counselor</strong></p>
+        <p class=bottom-text>Answer a few questions and learn about your health plan. The virtual benefits counselor gives you personalized, confidential details.<p/>
+          <p class=bottom-link><a chref="#">Ask your counselor <i class="fas fa-angle-right"></i></a>
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p class="text-center questions">If you have additional questions about Apple benefits, contact the <a ref="#">HR HelpLine.</a></p>
+      <p class="copyright">Copyright &#169; 2018 Apple Inc. All rights reserved. The information presented on HRWeb is subject to conditions.</p>
+      <ul class="footer-links">
+        <li><a href="#">Learn More |</a></li>
+        <li><a href="#"> Sign Out |</a></li>
+        <li><a href="#"> Site Feedback</a></li>
+      </ul>
+    </footer>
+  </div>
 </body>
 </html>
