@@ -87,9 +87,9 @@
     }
 
     .bottom div {
- width: 33.33%; 
-        margin: 0 auto;
-    }
+ width: 28.33%;
+ margin: 0 auto;
+ }
 
 
     .bottom {
@@ -245,6 +245,11 @@
     
     .far.fa-question-circle.fa-3x, .fas.fa-copy.fa-3x, .far.fa-comment-dots.fa-3x {
     margin-bottom: 15px;
+}
+
+.faq {
+    background-color: #e0e0e0;
+    padding: 22px;
 }
 
 
